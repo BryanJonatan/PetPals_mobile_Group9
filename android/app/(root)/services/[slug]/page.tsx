@@ -1,14 +1,16 @@
 "use client";
-import ContactPersonCard from "@/app/components/Cards/ContactPersonCard";
-import ItemDetailCard from "@/app/components/Cards/ItemDetailCard";
-import NormalContent from "@/app/components/ContentTemplate/NormalContent";
-import BookServiceModal from "@/app/components/modals/BookServiceModal";
-import MessageModal from "@/app/components/modals/MessageModal";
-import PageNotFound from "@/app/components/PageNotFound";
-import { useGlobal } from "@/app/context/GlobalContext";
-import { useServices } from "@/app/context/services/ServicesContext";
-import { useUsers } from "@/app/context/users/UsersContext";
-import Loading from "@/app/loading";
+
+import ContactPersonCard from "../../../components/Cards/ContactPersonCard";
+import ItemDetailCard from "../../../components/Cards/ItemDetailCard";
+import NormalContent from "../../../components/ContentTemplate/NormalContent";
+import BookServiceModal from "../../../components/modals/BookServiceModal";
+import MessageModal from "../../../components/modals/MessageModal";
+import PageNotFound from "../../../components/PageNotFound";
+import { useGlobal } from "../../../context/GlobalContext";
+import { useServices } from "../../../context/services/ServicesContext";
+import { useUsers } from "../../../context/users/UsersContext";
+import Loading from "../../../loading";
+
 import { useParams, useRouter } from "next/navigation";
 import React, { useEffect, useState } from "react";
 

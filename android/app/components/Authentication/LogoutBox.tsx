@@ -1,5 +1,6 @@
-import { useUsers } from "@/app/context/users/UsersContext";
+
 import React from "react";
+import { useUsers } from "../../context/users/UsersContext";
 
 interface LogoutBoxProps {
   setIsOpen: React.Dispatch<React.SetStateAction<boolean>>;

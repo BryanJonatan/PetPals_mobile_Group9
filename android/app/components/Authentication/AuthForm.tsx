@@ -3,8 +3,8 @@ import Link from "next/link";
 import React from "react";
 import LoginInputField from "./Login/LoginInputField";
 import RegisterInputField from "./Register/RegisterInputField";
-import { useUsers } from "@/app/context/users/UsersContext";
 
+import { useUsers } from "../../context/users/UsersContext";
 interface AuthFormProps {
   authType: string;
 }

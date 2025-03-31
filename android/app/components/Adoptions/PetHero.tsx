@@ -2,8 +2,8 @@ import Image from "next/image";
 import SearchBox from "../SearchFilter/SearchBox";
 import FilterBox from "../SearchFilter/FilterBox";
 import SearchFilterBox from "../SearchFilter/SearchFilterBox";
-import { usePets } from "@/app/context/pets/PetsContext";
 
+import { usePets } from "../../context/pets/PetsContext";
 const PetHero = () => {
   const { filters } = usePets();
 

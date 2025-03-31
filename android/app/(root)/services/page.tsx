@@ -1,11 +1,12 @@
 "use client";
-import BigHeroContent from "@/app/components/ContentTemplate/BigHeroContent";
-import NormalContent from "@/app/components/ContentTemplate/NormalContent";
-import FilterModal from "@/app/components/modals/FilterModal";
-import PageNotFound from "@/app/components/PageNotFound";
-import ServiceHero from "@/app/components/Services/ServiceHero";
-import ServiceList from "@/app/components/Services/ServiceList";
-import { useServices } from "@/app/context/services/ServicesContext";
+
+import BigHeroContent from "../../components/ContentTemplate/BigHeroContent";
+import NormalContent from "../../components/ContentTemplate/NormalContent";
+import FilterModal from "../../components/modals/FilterModal";
+import PageNotFound from "../../components/PageNotFound";
+import ServiceHero from "../../components/Services/ServiceHero";
+import ServiceList from "../../components/Services/ServiceList";
+import { useServices } from "../../context/services/ServicesContext";
 import React, { useEffect, useState } from "react";
 import { useDebounce } from "react-use";
 

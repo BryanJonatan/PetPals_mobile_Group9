@@ -1,9 +1,9 @@
-import { usePets } from "@/app/context/pets/PetsContext";
-import { useServices } from "@/app/context/services/ServicesContext";
-import { useUsers } from "@/app/context/users/UsersContext";
+import { useServices } from "../../context/services/ServicesContext";
+import { useUsers } from "../../context/users/UsersContext";
+
 import Image from "next/image";
 import React from "react";
-
+import { usePets } from "../../context/pets/PetsContext";
 interface ItemDetailCardProps {
   itemType: string;
   imageUrl: string | null;

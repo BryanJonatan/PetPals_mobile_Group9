@@ -1,8 +1,8 @@
-import { useForums } from "@/app/context/forums/ForumsContext";
-import { useUsers } from "@/app/context/users/UsersContext";
-import { useRouter } from "next/navigation";
-import React, { useEffect } from "react";
+import { useUsers } from "../../context/users/UsersContext";
+import { useRouter } from "next/router";
 
+import React, { useEffect } from "react";
+import { useForums } from "../../context/forums/ForumsContext";
 const AddCommentForm = () => {
   const { isLoggedIn, loggedInUser } = useUsers();
   const { forumPost, newForumComment, setNewComment, addForumComment } =

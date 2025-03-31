@@ -1,10 +1,10 @@
-import IPet from "@/app/interface/pet/IPet";
+
 import React from "react";
 import PetCard from "./PetCard";
-import { usePets } from "@/app/context/pets/PetsContext";
-import Loading from "@/app/loading";
+import IPet from "../../interface/pet/IPet";
+import { usePets } from "../../context/pets/PetsContext";
 import ItemNotFound from "../ItemNotFound";
-
+import Loading from "../../loading";
 interface PetListProps {
   filteredPets: IPet[];
 }

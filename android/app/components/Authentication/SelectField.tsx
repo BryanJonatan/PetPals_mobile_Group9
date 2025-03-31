@@ -1,9 +1,9 @@
 "use client";
-import ISpecies from "@/app/interface/pet/ISpecies";
-import { IServiceCategory } from "@/app/interface/service/IServiceCategory";
-import { IRole } from "@/app/interface/user/IRole";
-import React from "react";
+import { IServiceCategory } from "../../interface/service/IServiceCategory";
+import { IRole } from "../../interface/user/IRole";
 
+import React from "react";
+import ISpecies from "../../interface/pet/ISpecies";
 interface SelectFieldProps {
   label: string;
   name: string;

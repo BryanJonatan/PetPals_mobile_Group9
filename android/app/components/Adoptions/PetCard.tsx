@@ -1,10 +1,11 @@
-import IPet from "@/app/interface/pet/IPet";
+
+import IPet from "../../interface/pet/IPet";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import CardLayout from "../Cards/CardLayout";
-import { useGlobal } from "@/app/context/GlobalContext";
 
+import { useGlobal } from "../../context/GlobalContext";
 interface PetCardProps {
   pet: IPet;
 }

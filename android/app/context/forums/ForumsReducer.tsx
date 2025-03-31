@@ -1,9 +1,10 @@
-import IForumComment from "@/app/interface/forum/IForumComment";
-import IForumPost from "@/app/interface/forum/IForumPost";
+import IForumPost from "../../interface/forum/IForumPost";
+import IForumComment from "../../interface/forum/IForumComment";
+import { IForumCategory } from "../../interface/forum/IForumCategory";
 import { GlobalAction, GlobalActionType } from "../GlobalActions";
-import { IForumCategory } from "@/app/interface/forum/IForumCategory";
-import { INewForumPost } from "@/app/interface/forum/INewForumPost";
-import { INewForumComment } from "@/app/interface/forum/INewForumComment";
+import { INewForumPost } from "../../interface/forum/INewForumPost";
+import { INewForumComment } from "../../interface/forum/INewForumComment";
+
 
 export interface ForumState {
   forumCategories: IForumCategory[];

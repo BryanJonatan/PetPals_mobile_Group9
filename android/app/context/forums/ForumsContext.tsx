@@ -1,15 +1,15 @@
 "use client";
 
 import { createContext, ReactNode, useContext, useReducer } from "react";
-import api from "@/lib/apiClient";
+import { IForumCategory } from "../../interface/forum/IForumCategory";
+import api from "../../../lib/apiClient";
 import { GlobalActionType } from "../GlobalActions";
-import { IForumCategory } from "@/app/interface/forum/IForumCategory";
-import IForumPost from "@/app/interface/forum/IForumPost";
-import IForumComment from "@/app/interface/forum/IForumComment";
+import IForumPost from "../../interface/forum/IForumPost";
+import IForumComment from "../../interface/forum/IForumComment";
 import { ForumsReducer, initialState } from "./ForumsReducer";
-import { INewForumPost } from "@/app/interface/forum/INewForumPost";
+import { INewForumPost } from "../../interface/forum/INewForumPost";
+import { INewForumComment } from "../../interface/forum/INewForumComment";
 import { useRouter } from "next/navigation";
-import { INewForumComment } from "@/app/interface/forum/INewForumComment";
 import { useGlobal } from "../GlobalContext";
 
 interface ForumsContextType {

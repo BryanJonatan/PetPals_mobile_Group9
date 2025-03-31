@@ -1,13 +1,12 @@
 "use client";
 import { useEffect } from "react";
 import { useParams } from "next/navigation";
-import NormalContent from "@/app/components/ContentTemplate/NormalContent";
-import { useForums } from "@/app/context/forums/ForumsContext";
-import Loading from "@/app/loading";
-import PageNotFound from "@/app/components/PageNotFound";
-import PostComments from "@/app/components/Forums/PostComments";
-import AddCommentForm from "@/app/components/Forums/AddCommentForm";
-
+import NormalContent from "../../../components/ContentTemplate/NormalContent";
+import { useForums } from "../../../context/forums/ForumsContext";
+import Loading from "../../../loading";
+import PageNotFound from "../../../components/PageNotFound";
+import PostComments from "../../../components/Forums/PostComments";
+import AddCommentForm from "../../../components/Forums/AddCommentForm";
 const ForumDetail = () => {
   const params = useParams();
   const slug = params?.slug as string | undefined;

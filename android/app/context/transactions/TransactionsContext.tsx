@@ -1,12 +1,13 @@
 "use client";
 
 import { createContext, ReactNode, useContext, useReducer } from "react";
-import api from "@/lib/apiClient";
+import api from "../../../lib/apiClient";
+import { ITransaction } from "../../interface/transaction/ITransaction";
 import { GlobalActionType } from "../GlobalActions";
 import { TransactionsReducer, initialState } from "./TransactionsReducer";
-import { ITransaction } from "@/app/interface/transaction/ITransaction";
-import { IAdoptionTransaction } from "@/app/interface/transaction/IAdoptionTransaction";
-import { IServiceTransaction } from "@/app/interface/transaction/IServiceTransaction";
+import { IAdoptionTransaction } from "../../interface/transaction/IAdoptionTransaction";
+import { IServiceTransaction } from "../../interface/transaction/IServiceTransaction";
+
 
 interface TransactionsContextType {
   transactions: ITransaction[] | IAdoptionTransaction[] | IServiceTransaction[];

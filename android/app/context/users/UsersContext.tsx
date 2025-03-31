@@ -7,15 +7,16 @@ import {
   useEffect,
   useReducer,
 } from "react";
-import api from "@/lib/apiClient";
-import IUser from "@/app/interface/user/IUser";
-import { IRole } from "@/app/interface/user/IRole";
+import IUser from "../../interface/user/IUser";
+import api from "../../../lib/apiClient";
+import { IRole } from "../../interface/user/IRole";
 import { initialState, UsersReducer } from "./UsersReducer";
 import { GlobalActionType } from "../GlobalActions";
-import { IUserRegister } from "@/app/interface/auth/IUserRegister";
-import { IUserLogin } from "@/app/interface/auth/IUserLogin";
+import { IUserRegister } from "../../interface/auth/IUserRegister";
+import { IUserLogin } from "../../interface/auth/IUserLogin";
+import { IRegisterErrorMessage } from "../../interface/auth/IRegisterErrorMessage";
 import { useRouter } from "next/navigation";
-import { IRegisterErrorMessage } from "@/app/interface/auth/IRegisterErrorMessage";
+
 
 interface UsersContextType {
   user: IUser;

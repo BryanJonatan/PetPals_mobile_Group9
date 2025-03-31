@@ -1,10 +1,12 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
+
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 import { FaMoon, FaSun, FaAdjust } from "react-icons/fa";
+import { Button
 
+ } from "../../../ui/button";
 const ThemeSwitcher = () => {
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);

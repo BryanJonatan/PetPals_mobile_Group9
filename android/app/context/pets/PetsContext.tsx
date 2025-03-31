@@ -4,10 +4,10 @@ import { createContext, ReactNode, useContext, useReducer } from "react";
 import IPet from "../../interface/pet/IPet";
 import { initialState, PetsReducer } from "./PetsReducer";
 import { GlobalActionType } from "../GlobalActions";
-import api from "@/lib/apiClient";
+import { INewPet } from "../../interface/pet/INewPet";
+import api from "../../../lib/apiClient";
 import { IPetFilterParams } from "../../interface/pet/IPetFilterParams";
 import ISpecies from "../../interface/pet/ISpecies";
-import { INewPet } from "@/app/interface/pet/INewPet";
 import { useGlobal } from "../GlobalContext";
 import { useRouter } from "next/navigation";
 

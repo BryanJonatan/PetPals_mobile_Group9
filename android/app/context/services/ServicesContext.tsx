@@ -1,13 +1,13 @@
 "use client";
 
 import { createContext, ReactNode, useContext, useReducer } from "react";
-import api from "@/lib/apiClient";
-import { IServiceCategory } from "@/app/interface/service/IServiceCategory";
-import IService from "@/app/interface/service/IService";
-import { IServiceFilterParams } from "@/app/interface/service/IServiceFilterParams";
+import { IServiceCategory } from "../../interface/service/IServiceCategory";
+import api from "../../../lib/apiClient";
+import IService from "../../interface/service/IService";
+import { IServiceFilterParams } from "../../interface/service/IServiceFilterParams";
+import { INewService } from "../../interface/service/INewService";
 import { initialState, ServicesReducer } from "./ServicesReducer";
 import { GlobalActionType } from "../GlobalActions";
-import { INewService } from "@/app/interface/service/INewService";
 import { useGlobal } from "../GlobalContext";
 import { useRouter } from "next/navigation";
 

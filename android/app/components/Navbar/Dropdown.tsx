@@ -3,10 +3,9 @@ import NavLink from "./NavLink";
 import ThemeSwitcher from "./ThemeSwitcher";
 import LoginBox from "../Authentication/Login/LoginBox";
 import RegisterBox from "../Authentication/Register/RegisterBox";
-import { useUsers } from "@/app/context/users/UsersContext";
 import WelcomeMessage from "./WelcomeMessage";
 import UserDropdown from "./UserDropdown/UserDropdown";
-
+import { useUsers } from "../../context/users/UsersContext";
 interface DropdownProps {
   isOpen: boolean;
   setIsOpen: React.Dispatch<React.SetStateAction<boolean>>;

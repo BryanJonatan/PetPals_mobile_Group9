@@ -1,10 +1,10 @@
-import IService from "@/app/interface/service/IService";
+import { useServices } from "../../context/services/ServicesContext";
 import React from "react";
 import ServiceCard from "./ServiceCard";
-import { useServices } from "@/app/context/services/ServicesContext";
-import Loading from "@/app/loading";
-import ItemNotFound from "../ItemNotFound";
+import Loading from "../../loading";
 
+import ItemNotFound from "../ItemNotFound";
+import IService from "../../interface/service/IService";
 interface ServiceListProps {
   filteredServices: IService[];
 }

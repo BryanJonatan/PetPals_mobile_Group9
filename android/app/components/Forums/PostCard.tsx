@@ -1,5 +1,6 @@
-import IForumPost from "@/app/interface/forum/IForumPost";
+
 import Link from "next/link";
+import IForumPost from "../../interface/forum/IForumPost";
 
 interface PostCardProps {
   post: IForumPost;

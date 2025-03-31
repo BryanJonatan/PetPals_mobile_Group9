@@ -1,6 +1,6 @@
-import { useServices } from "@/app/context/services/ServicesContext";
-import React, { useEffect } from "react";
 
+import React, { useEffect } from "react";
+import { useServices } from "../../context/services/ServicesContext";
 const ServiceFilterField = () => {
   const { service_categories, fetchServiceCategories, filters, setFilters } =
     useServices();

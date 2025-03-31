@@ -1,7 +1,9 @@
-import { ITransaction } from "@/app/interface/transaction/ITransaction";
+
+import { ITransaction } from "../../interface/transaction/ITransaction";
 import { GlobalAction, GlobalActionType } from "../GlobalActions";
-import { IServiceTransaction } from "@/app/interface/transaction/IServiceTransaction";
-import { IAdoptionTransaction } from "@/app/interface/transaction/IAdoptionTransaction";
+import { IServiceTransaction } from "../../interface/transaction/IServiceTransaction";
+import { IAdoptionTransaction } from "../../interface/transaction/IAdoptionTransaction";
+
 
 export interface TransactionState {
   transactions: ITransaction[] | IAdoptionTransaction[] | IServiceTransaction[];

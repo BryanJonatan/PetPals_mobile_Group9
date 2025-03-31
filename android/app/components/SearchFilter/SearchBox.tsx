@@ -1,5 +1,5 @@
-import { usePets } from "@/app/context/pets/PetsContext";
-import { useServices } from "@/app/context/services/ServicesContext";
+import { useServices } from "../../context/services/ServicesContext";
+import { usePets } from "../../context/pets/PetsContext";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";

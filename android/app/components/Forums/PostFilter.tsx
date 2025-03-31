@@ -1,6 +1,6 @@
 "use client";
-import { useForums } from "@/app/context/forums/ForumsContext";
-import Loading from "@/app/loading";
+import { useForums } from "../../context/forums/ForumsContext";
+import Loading from "../../loading";
 import React, { useEffect } from "react";
 
 const PostFilter = () => {

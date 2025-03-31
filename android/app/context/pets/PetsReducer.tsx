@@ -1,8 +1,9 @@
-import IPet from "@/app/interface/pet/IPet";
+
 import { IPetFilterParams } from "../../interface/pet/IPetFilterParams";
 import ISpecies from "../../interface/pet/ISpecies";
 import { GlobalAction, GlobalActionType } from "../GlobalActions";
-import { INewPet } from "@/app/interface/pet/INewPet";
+import IPet from "../../interface/pet/IPet";
+import { INewPet } from "../../interface/pet/INewPet";
 
 export interface PetState {
   species: ISpecies[];

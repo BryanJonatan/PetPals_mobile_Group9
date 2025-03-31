@@ -1,7 +1,9 @@
-import { useGlobal } from "@/app/context/GlobalContext";
-import { IAdoptionTransaction } from "@/app/interface/transaction/IAdoptionTransaction";
-import { IServiceTransaction } from "@/app/interface/transaction/IServiceTransaction";
-import { ITransaction } from "@/app/interface/transaction/ITransaction";
+
+import { useGlobal } from "../../context/GlobalContext";
+import { IServiceTransaction } from "../../interface/transaction/IServiceTransaction";
+import { IAdoptionTransaction } from "../../interface/transaction/IAdoptionTransaction";
+import { ITransaction } from "../../interface/transaction/ITransaction";
+
 import Image from "next/image";
 import React from "react";
 

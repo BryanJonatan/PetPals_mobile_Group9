@@ -1,12 +1,12 @@
-import IService from "@/app/interface/service/IService";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import Image from "next/image";
 import React from "react";
 import Link from "next/link";
 import CardLayout from "../Cards/CardLayout";
-import { useGlobal } from "@/app/context/GlobalContext";
-
+import IService from "../../interface/service/IService";
+import { useGlobal } from "../../context/GlobalContext";
 interface ServiceCardProps {
   service: IService;
 }

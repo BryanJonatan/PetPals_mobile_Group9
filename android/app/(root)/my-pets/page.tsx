@@ -1,12 +1,13 @@
 "use client";
-import NormalContent from "@/app/components/ContentTemplate/NormalContent";
-import ItemNotFound from "@/app/components/ItemNotFound";
-import Header from "@/app/components/MyPets/Header";
-import MyPetTable from "@/app/components/MyPets/MyPetTable";
-import PageNotFound from "@/app/components/PageNotFound";
-import { usePets } from "@/app/context/pets/PetsContext";
-import { useUsers } from "@/app/context/users/UsersContext";
-import Loading from "@/app/loading";
+
+import NormalContent from "../../components/ContentTemplate/NormalContent";
+import ItemNotFound from "../../components/ItemNotFound";
+import Header from "../../components/MyPets/Header";
+import MyPetTable from "../../components/MyPets/MyPetTable";
+import PageNotFound from "../../components/PageNotFound";
+import { usePets } from "../../context/pets/PetsContext";
+import { useUsers } from "../../context/users/UsersContext";
+import Loading from "../../loading";
 import React, { useEffect } from "react";
 
 const MyPets = () => {

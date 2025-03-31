@@ -1,5 +1,6 @@
-import { useForums } from "@/app/context/forums/ForumsContext";
-import Loading from "@/app/loading";
+
+import { useForums } from "../../context/forums/ForumsContext";
+import Loading from "../../loading";
 import React from "react";
 import ItemNotFound from "../ItemNotFound";
 import PostCard from "./PostCard";

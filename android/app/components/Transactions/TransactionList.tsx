@@ -1,5 +1,6 @@
-import { useTransactions } from "@/app/context/transactions/TransactionsContext";
-import Loading from "@/app/loading";
+
+import { useTransactions } from "../../context/transactions/TransactionsContext";
+import Loading from "../../loading";
 import React from "react";
 import TransactionCard from "./TransactionCard";
 import ItemNotFound from "../ItemNotFound";

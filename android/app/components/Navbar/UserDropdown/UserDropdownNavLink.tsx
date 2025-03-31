@@ -1,8 +1,8 @@
 import React from "react";
 import { PawPrint, PlusCircle, FileText, User, LogOut } from "lucide-react";
-import { useUsers } from "@/app/context/users/UsersContext";
-import UserDropdownNavItem from "./UserDropdownNavItem";
 
+import UserDropdownNavItem from "./UserDropdownNavItem";
+import { useUsers } from "../../../context/users/UsersContext";
 interface UserDropdownNavLinkProps {
   setIsOpen: React.Dispatch<React.SetStateAction<boolean>>;
   onClose: () => void;

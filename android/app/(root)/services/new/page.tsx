@@ -1,10 +1,11 @@
 "use client";
-import InputField from "@/app/components/Authentication/InputField";
-import SelectField from "@/app/components/Authentication/SelectField";
-import NormalContent from "@/app/components/ContentTemplate/NormalContent";
-import MessageModal from "@/app/components/modals/MessageModal";
-import { useServices } from "@/app/context/services/ServicesContext";
-import { useUsers } from "@/app/context/users/UsersContext";
+
+import InputField from "../../../components/Authentication/InputField";
+import SelectField from "../../../components/Authentication/SelectField";
+import NormalContent from "../../../components/ContentTemplate/NormalContent";
+import MessageModal from "../../../components/modals/MessageModal";
+import { useServices } from "../../../context/services/ServicesContext";
+import { useUsers } from "../../../context/users/UsersContext";
 import React, { useEffect } from "react";
 
 const NewService = () => {

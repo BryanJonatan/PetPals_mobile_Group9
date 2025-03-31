@@ -1,7 +1,8 @@
 "use client";
-import NormalContent from "@/app/components/ContentTemplate/NormalContent";
-import DataField from "@/app/components/Profile/DataField";
-import { useUsers } from "@/app/context/users/UsersContext";
+
+import NormalContent from "../../components/ContentTemplate/NormalContent";
+import DataField from "../../components/Profile/DataField";
+import { useUsers } from "../../context/users/UsersContext";
 import React from "react";
 
 const Profile = () => {

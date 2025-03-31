@@ -1,6 +1,6 @@
-import { useGlobal } from "@/app/context/GlobalContext";
-import React from "react";
 
+import React from "react";
+import { useGlobal } from "../../context/GlobalContext";
 interface MessageModalProps {
   title: string;
   message: string;

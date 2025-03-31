@@ -1,17 +1,17 @@
 "use client";
-import NormalContent from "@/app/components/ContentTemplate/NormalContent";
-import MessageModal from "@/app/components/modals/MessageModal";
-import PageNotFound from "@/app/components/PageNotFound";
-import { usePets } from "@/app/context/pets/PetsContext";
-import Loading from "@/app/loading";
+
+import NormalContent from "../../../components/ContentTemplate/NormalContent";
+import MessageModal from "../../../components/modals/MessageModal";
+import PageNotFound from "../../../components/PageNotFound";
+import { usePets } from "../../../context/pets/PetsContext";
+import Loading from "../../../loading";
 import { useParams, useRouter } from "next/navigation";
 import React, { useEffect, useState } from "react";
-import { useAdoptions } from "@/app/context/adoptions/AdoptionsContext";
-import { useUsers } from "@/app/context/users/UsersContext";
-import ItemDetailCard from "@/app/components/Cards/ItemDetailCard";
-import ContactPersonCard from "@/app/components/Cards/ContactPersonCard";
-import { useGlobal } from "@/app/context/GlobalContext";
-
+import { useAdoptions } from "../../../context/adoptions/AdoptionsContext";
+import { useUsers } from "../../../context/users/UsersContext";
+import ItemDetailCard from "../../../components/Cards/ItemDetailCard";
+import ContactPersonCard from "../../../components/Cards/ContactPersonCard";
+import { useGlobal } from "../../../context/GlobalContext";
 const PetDetail = () => {
   const params = useParams();
   const slug = params?.slug as string | undefined;

@@ -1,9 +1,9 @@
-import IService from "@/app/interface/service/IService";
-import { IServiceCategory } from "@/app/interface/service/IServiceCategory";
-import { IServiceFilterParams } from "@/app/interface/service/IServiceFilterParams";
-import { GlobalAction, GlobalActionType } from "../GlobalActions";
-import { INewService } from "@/app/interface/service/INewService";
 
+import IService from "../../interface/service/IService";
+import { IServiceCategory } from "../../interface/service/IServiceCategory";
+import { GlobalAction, GlobalActionType } from "../GlobalActions";
+import { IServiceFilterParams } from "../../interface/service/IServiceFilterParams";
+import { INewService } from "../../interface/service/INewService";
 export interface ServiceState {
   service_categories: IServiceCategory[];
   services: IService[];

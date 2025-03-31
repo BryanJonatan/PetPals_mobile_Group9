@@ -1,7 +1,8 @@
-import ISpecies from "@/app/interface/pet/ISpecies";
+
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import ISpecies from "../../interface/pet/ISpecies";
 
 interface SpeciesCardProps {
   species: ISpecies;

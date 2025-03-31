@@ -1,8 +1,8 @@
-import IUser from "@/app/interface/user/IUser";
+
 import Link from "next/link";
 import React from "react";
 import { AiOutlineWhatsApp } from "react-icons/ai";
-
+import IUser from "../../interface/user/IUser";
 interface ContactPersonCardProps {
   itemType: string;
   data: IUser;

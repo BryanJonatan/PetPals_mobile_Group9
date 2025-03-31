@@ -1,4 +1,5 @@
-import AuthBox from "@/app/components/Authentication/AuthForm";
+
+import AuthBox from "../../components/Authentication/AuthForm";
 import React from "react";
 
 const Register = () => {

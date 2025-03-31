@@ -1,10 +1,10 @@
 "use client";
-import NormalContent from "@/app/components/ContentTemplate/NormalContent";
-import { useForums } from "@/app/context/forums/ForumsContext";
-import { useEffect } from "react";
-import MessageModal from "@/app/components/modals/MessageModal";
-import { useUsers } from "@/app/context/users/UsersContext";
 
+import NormalContent from "../../../components/ContentTemplate/NormalContent";
+import { useForums } from "../../../context/forums/ForumsContext";
+import { useEffect } from "react";
+import MessageModal from "../../../components/modals/MessageModal";
+import { useUsers } from "../../../context/users/UsersContext";
 const NewForumPost = () => {
   const { loggedInUser } = useUsers();
   const {

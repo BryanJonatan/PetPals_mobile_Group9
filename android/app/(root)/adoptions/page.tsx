@@ -1,11 +1,12 @@
 "use client";
-import PetHero from "@/app/components/Adoptions/PetHero";
-import PetList from "@/app/components/Adoptions/PetList";
-import BigHeroContent from "@/app/components/ContentTemplate/BigHeroContent";
-import NormalContent from "@/app/components/ContentTemplate/NormalContent";
-import FilterModal from "@/app/components/modals/FilterModal";
-import PageNotFound from "@/app/components/PageNotFound";
-import { usePets } from "@/app/context/pets/PetsContext";
+
+import PetHero from "../../components/Adoptions/PetHero";
+import PetList from "../../components/Adoptions/PetList";
+import BigHeroContent from "../../components/ContentTemplate/BigHeroContent";
+import NormalContent from "../../components/ContentTemplate/NormalContent";
+import FilterModal from "../../components/modals/FilterModal";
+import PageNotFound from "../../components/PageNotFound";
+import { usePets } from "../../context/pets/PetsContext";
 import React, { useEffect, useState } from "react";
 import { useDebounce } from "react-use";
 

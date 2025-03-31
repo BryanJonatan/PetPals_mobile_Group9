@@ -1,9 +1,10 @@
-import { usePets } from "@/app/context/pets/PetsContext";
-import { useServices } from "@/app/context/services/ServicesContext";
+
+import { usePets } from "../../context/pets/PetsContext";
 import React from "react";
 import PetFilterField from "./PetFilterField";
 import ServiceFilterField from "./ServiceFilterField";
-import { useGlobal } from "@/app/context/GlobalContext";
+import { useServices } from "../../context/services/ServicesContext";
+import { useGlobal } from "../../context/GlobalContext";
 import { X } from "lucide-react";
 
 interface FilterModalProps {

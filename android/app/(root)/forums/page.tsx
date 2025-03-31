@@ -1,12 +1,17 @@
 "use client";
-import NormalContent from "@/app/components/ContentTemplate/NormalContent";
-import PostFilter from "@/app/components/Forums/PostFilter";
-import PostList from "@/app/components/Forums/PostList";
-import PageNotFound from "@/app/components/PageNotFound";
-import { useForums } from "@/app/context/forums/ForumsContext";
-import { useUsers } from "@/app/context/users/UsersContext";
+
+import NormalContent from "../../components/ContentTemplate/NormalContent";
+import PostFilter from "../../components/Forums/PostFilter";
+import PostList from "../../components/Forums/PostList";
+import PageNotFound from "../../components/PageNotFound";
+import { useForums } from "../../context/forums/ForumsContext";
+import { useUsers } from "../../context/users/UsersContext";
+
 import Link from "next/link";
 import { useEffect } from "react";
+
+
+
 
 const Forums = () => {
   const { isLoggedIn } = useUsers();

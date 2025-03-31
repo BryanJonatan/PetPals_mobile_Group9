@@ -1,9 +1,10 @@
-import { IRole } from "@/app/interface/user/IRole";
-import IUser from "@/app/interface/user/IUser";
+import IUser from "../../interface/user/IUser";
+import { IRole } from "../../interface/user/IRole";
+import { IUserRegister } from "../../interface/auth/IUserRegister";
 import { GlobalAction, GlobalActionType } from "../GlobalActions";
-import { IUserRegister } from "@/app/interface/auth/IUserRegister";
-import { IUserLogin } from "@/app/interface/auth/IUserLogin";
-import { IRegisterErrorMessage } from "@/app/interface/auth/IRegisterErrorMessage";
+import { IUserLogin } from "../../interface/auth/IUserLogin";
+import { IRegisterErrorMessage } from "../../interface/auth/IRegisterErrorMessage";
+
 
 export interface UserState {
   user: IUser;

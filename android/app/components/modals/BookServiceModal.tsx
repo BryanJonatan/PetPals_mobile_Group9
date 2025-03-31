@@ -1,8 +1,8 @@
-import { useGlobal } from "@/app/context/GlobalContext";
-import { useServices } from "@/app/context/services/ServicesContext";
-import { useUsers } from "@/app/context/users/UsersContext";
-import React, { useState } from "react";
 
+import { useGlobal } from "../../context/GlobalContext";
+import { useServices } from "../../context/services/ServicesContext";
+import React, { useState } from "react";
+import { useUsers } from "../../context/users/UsersContext";
 interface BookServiceProps {
   title: string;
   message: string;

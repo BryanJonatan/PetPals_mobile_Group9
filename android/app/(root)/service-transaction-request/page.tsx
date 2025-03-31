@@ -1,10 +1,11 @@
 "use client";
-import NormalContent from "@/app/components/ContentTemplate/NormalContent";
-import PageNotFound from "@/app/components/PageNotFound";
-import TransactionList from "@/app/components/Transactions/TransactionList";
-import TransactionWrapper from "@/app/components/Transactions/TransactionWrapper";
-import { useTransactions } from "@/app/context/transactions/TransactionsContext";
-import { useUsers } from "@/app/context/users/UsersContext";
+
+import NormalContent from "../../components/ContentTemplate/NormalContent";
+import PageNotFound from "../../components/PageNotFound";
+import TransactionList from "../../components/Transactions/TransactionList";
+import TransactionWrapper from "../../components/Transactions/TransactionWrapper";
+import { useTransactions } from "../../context/transactions/TransactionsContext";
+import { useUsers } from "../../context/users/UsersContext";
 import React, { useEffect } from "react";
 
 const TransactionRequest = () => {
